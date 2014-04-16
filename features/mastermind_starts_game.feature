@@ -7,6 +7,6 @@ Feature: Mastermind starts game
 	Scenario: start game
 		Given I am not yet playing
 		When I start a new game
-		Then I should see "Welcome to Masterming!"
+		Then I should see "Welcome to Mastermind!"
 		And I should see "Enter guess:"
 
